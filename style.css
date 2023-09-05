@@ -1,0 +1,78 @@
+body {
+    font-family: 'EB Garamond', serif;
+    background-color: #83bafd;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+img  {
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+h1 {
+    padding: 10px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+form {
+    padding: 20px;
+    align-items: center;
+}
+
+#entradas {
+    align-items: center;
+}
+
+#botoes {
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+#botoes input {
+    min-width: 300px;
+    flex: 1;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.9rem;
+}
+
+#botoes input:hover {
+    background-color: #83bafd;
+    font-size: 2rem;
+}
+
+label {
+    font-size: x-large;
+    color: black;
+}
+
+input [type="number"] {
+    width: 10px;
+    border-bottom: 1px;
+    box-sizing: content-box;
+}
+
+h3 {
+    margin: 10px;
+    text-align: center;
+}
