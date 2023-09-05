@@ -1,6 +1,6 @@
 import {calcula_juros_rotativo, calcula_fatura_futura} from './utils.js'
 
-function botao_calcular() {
+function calcular_planos(){
     const cx_fatura = document.getElementById('cx-fatura') 
     const cx_pago_p1 = document.getElementById('cx-pago-p1')
     const cx_meses_1 = document.getElementById('cx-meses1')
