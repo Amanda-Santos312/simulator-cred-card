@@ -49,7 +49,7 @@ form {
 }
 
 #botoes input {
-    min-width: 300px;
+    max-width: 100%;
     flex: 1;
     height: 40px;
     border-radius: 10px;
