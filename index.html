@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <img src="./assets/cred-card.png" alt="Pessoas negociando">
+        <img src="./assets/cred_card.png" alt="Pessoas negociando">
         <h1>Simulador de Cartão de Crédito Rotativo</h1>
     </header>
 
@@ -26,28 +26,28 @@
         </div>
         
         <div>
-            <label for="">Pago-Plano1:</label>
-            <input id="cx-pago-p1" type="number" step="0.01" placeholder="acima do mínimo">
+            <label for="">Valor Plano1: </label>
+            <input id="cx-pago-p1" type="number" step="0.01" placeholder="acima de 20% da fatura">
         </div>
 
         <div>
             <label for="">Meses de Atraso:</label>
-            <input id="cx-meses1" type="number" placeholder="1 a 12">
+            <input id="cx-meses1" type="number" placeholder="1-12">
         </div>
 
         <div>
-            <label for="">Pago-Plano2:</label>
-            <input id="cx-pago-p2" type="number" step="0.01" placeholder="acima do mínimo">
+            <label for="">Valor Plano2:</label>
+            <input id="cx-pago-p2" type="number" step="0.01" placeholder="acima de 20% da fatura">
         </div>
 
         <div>
             <label for="">Meses de Atraso:</label>
-            <input id="cx-meses2" type="number" placeholder="1 a 12">
+            <input id="cx-meses2" type="number" placeholder="1-12">
         </div>
 
         <div id="botoes">
-            <input type="reset" value="Limpar Dados">
             <input id="btn-calcular" onclick="calcular_planos()" type="submit" value="Calcular Planos">
+            <input type="reset" value="Limpar Dados">
         </div>
 
         <div>
