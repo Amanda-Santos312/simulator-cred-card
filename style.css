@@ -1,6 +1,6 @@
 body {
     font-family: 'EB Garamond', serif;
-    background-color: #8dd6b6;
+    background-color: #7dbbd3;
     margin: 20px;
     align-items: center;
     justify-content: center;
@@ -58,7 +58,7 @@ form {
 }
 
 #botoes input:hover {
-    background-color: #8dd6b6;
+    background-color: #7dbbd3;
     font-size: 1.5rem;
 }
 
